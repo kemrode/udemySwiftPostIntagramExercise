@@ -24,14 +24,14 @@
                                     <constraint firstAttribute="width" constant="50" id="cq5-vp-LGy"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Kevin Fichou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ges-Mv-4kU">
-                                <rect key="frame" x="90" y="79" width="103" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Kevin Fichou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ges-Mv-4kU">
+                                <rect key="frame" x="90" y="59" width="103" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" text="Ile de Porquerolles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVy-Cb-kab">
-                                <rect key="frame" x="90" y="108" width="127" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Ile de Porquerolles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVy-Cb-kab">
+                                <rect key="frame" x="90" y="88" width="127" height="11"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -118,7 +118,7 @@
                             <constraint firstItem="Ajq-nZ-f79" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="EU6-dI-lmm"/>
                             <constraint firstItem="dl8-PM-Uf6" firstAttribute="top" secondItem="gr1-iy-TkN" secondAttribute="bottom" constant="5" id="GDt-xB-s4H"/>
                             <constraint firstItem="Va2-5K-4bM" firstAttribute="top" secondItem="wQi-sx-ZGM" secondAttribute="bottom" constant="1" id="Iwr-MX-8Ta"/>
-                            <constraint firstItem="Ges-Mv-4kU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="JEi-Yr-VLS"/>
+                            <constraint firstItem="Ges-Mv-4kU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="JEi-Yr-VLS"/>
                             <constraint firstItem="gr1-iy-TkN" firstAttribute="leading" secondItem="ERZ-WG-N1v" secondAttribute="trailing" constant="20" id="LkF-wC-gOe"/>
                             <constraint firstItem="wQi-sx-ZGM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MT9-pZ-HC3"/>
                             <constraint firstItem="wQi-sx-ZGM" firstAttribute="top" secondItem="GFC-hQ-b0h" secondAttribute="bottom" constant="25" id="Nx3-gY-PIW"/>

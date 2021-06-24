@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var profilPicture: UIImageView!
     @IBOutlet weak var faceOnePicture: UIImageView!
     @IBOutlet weak var faceTwoPicture: UIImageView!
+    //viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         roundedImg(image: profilPicture)
