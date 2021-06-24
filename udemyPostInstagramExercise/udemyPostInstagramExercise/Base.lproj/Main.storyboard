@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="udemyPostInstagramExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profil" translatesAutoresizingMaskIntoConstraints="NO" id="GFC-hQ-b0h">
+                                <rect key="frame" x="20" y="49" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MYk-hI-8So"/>
+                                    <constraint firstAttribute="width" constant="50" id="cq5-vp-LGy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Kevin Fichou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ges-Mv-4kU">
+                                <rect key="frame" x="90" y="79" width="103" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" text="Ile de Porquerolles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVy-Cb-kab">
+                                <rect key="frame" x="90" y="108" width="127" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picturePorquerolles" translatesAutoresizingMaskIntoConstraints="NO" id="wQi-sx-ZGM">
+                                <rect key="frame" x="0.0" y="124" width="414" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="8vB-dH-eud"/>
+                                    <constraint firstAttribute="height" constant="400" id="iBe-7X-yW9"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ajq-nZ-f79">
+                                <rect key="frame" x="375" y="49" width="19" height="22"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="ellipsis" catalog="system" renderingMode="original"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERZ-WG-N1v">
+                                <rect key="frame" x="20" y="525" width="20.5" height="22"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="heart" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqV-2W-v5h">
+                                <rect key="frame" x="75.5" y="525" width="23" height="22"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="bubble.left" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Va2-5K-4bM">
+                                <rect key="frame" x="133.5" y="525" width="21" height="22"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="paperplane" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQQ-8X-65V">
+                                <rect key="frame" x="376" y="525" width="18" height="22"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="bookmark" catalog="system"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="175 likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH9-GF-9C6">
+                                <rect key="frame" x="130.5" y="597" width="70.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kevin Fichou: Journée magnifique à Porquerolles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dl8-PM-Uf6">
+                                <rect key="frame" x="20" y="637" width="294.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Commentaires" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="on1-qP-YSD">
+                                <rect key="frame" x="20" y="823" width="128" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visage1" translatesAutoresizingMaskIntoConstraints="NO" id="gr1-iy-TkN">
+                                <rect key="frame" x="60.5" y="582" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KuP-da-aBc"/>
+                                    <constraint firstAttribute="width" constant="50" id="mRx-uc-BFa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visage2" translatesAutoresizingMaskIntoConstraints="NO" id="xFg-QW-5Re">
+                                <rect key="frame" x="20" y="582" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2ex-f6-pZg"/>
+                                    <constraint firstAttribute="width" constant="50" id="fWX-Kp-X71"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Il y a 3 heures" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyp-Je-TNY">
+                                <rect key="frame" x="298.5" y="843" width="95.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zVy-Cb-kab" firstAttribute="top" secondItem="Ges-Mv-4kU" secondAttribute="bottom" constant="8" id="7GB-Xc-rhv"/>
+                            <constraint firstItem="xFg-QW-5Re" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BAg-03-Z3A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EQQ-8X-65V" secondAttribute="trailing" constant="20" id="Byd-RR-us3"/>
+                            <constraint firstItem="GH9-GF-9C6" firstAttribute="top" secondItem="Va2-5K-4bM" secondAttribute="bottom" constant="50" id="ESc-BK-u6p"/>
+                            <constraint firstItem="Ajq-nZ-f79" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="EU6-dI-lmm"/>
+                            <constraint firstItem="dl8-PM-Uf6" firstAttribute="top" secondItem="gr1-iy-TkN" secondAttribute="bottom" constant="5" id="GDt-xB-s4H"/>
+                            <constraint firstItem="Va2-5K-4bM" firstAttribute="top" secondItem="wQi-sx-ZGM" secondAttribute="bottom" constant="1" id="Iwr-MX-8Ta"/>
+                            <constraint firstItem="Ges-Mv-4kU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="JEi-Yr-VLS"/>
+                            <constraint firstItem="gr1-iy-TkN" firstAttribute="leading" secondItem="ERZ-WG-N1v" secondAttribute="trailing" constant="20" id="LkF-wC-gOe"/>
+                            <constraint firstItem="wQi-sx-ZGM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MT9-pZ-HC3"/>
+                            <constraint firstItem="wQi-sx-ZGM" firstAttribute="top" secondItem="GFC-hQ-b0h" secondAttribute="bottom" constant="25" id="Nx3-gY-PIW"/>
+                            <constraint firstItem="GFC-hQ-b0h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="OSN-O0-iSa"/>
+                            <constraint firstItem="EQQ-8X-65V" firstAttribute="top" secondItem="wQi-sx-ZGM" secondAttribute="bottom" constant="1" id="OqJ-5u-nML"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vyp-Je-TNY" secondAttribute="trailing" constant="20" id="R6c-Em-eur"/>
+                            <constraint firstItem="zVy-Cb-kab" firstAttribute="leading" secondItem="GFC-hQ-b0h" secondAttribute="trailing" constant="20" id="UTG-1b-sO6"/>
+                            <constraint firstItem="Ges-Mv-4kU" firstAttribute="leading" secondItem="GFC-hQ-b0h" secondAttribute="trailing" constant="20" id="WdG-zk-632"/>
+                            <constraint firstItem="GFC-hQ-b0h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="WyB-eq-55H"/>
+                            <constraint firstItem="gr1-iy-TkN" firstAttribute="top" secondItem="vqV-2W-v5h" secondAttribute="bottom" constant="35" id="Zh3-SJ-pXl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ajq-nZ-f79" secondAttribute="trailing" constant="20" id="ab1-dv-vWb"/>
+                            <constraint firstItem="ERZ-WG-N1v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dbO-Xt-JDU"/>
+                            <constraint firstAttribute="bottom" secondItem="on1-qP-YSD" secondAttribute="bottom" constant="55" id="f32-bl-sfo"/>
+                            <constraint firstAttribute="bottom" secondItem="vyp-Je-TNY" secondAttribute="bottom" constant="35" id="hJ5-m7-ZKO"/>
+                            <constraint firstItem="ERZ-WG-N1v" firstAttribute="top" secondItem="wQi-sx-ZGM" secondAttribute="bottom" constant="1" id="kkC-AF-E6S"/>
+                            <constraint firstItem="vqV-2W-v5h" firstAttribute="top" secondItem="wQi-sx-ZGM" secondAttribute="bottom" constant="1" id="lCP-8x-N0s"/>
+                            <constraint firstItem="Va2-5K-4bM" firstAttribute="leading" secondItem="vqV-2W-v5h" secondAttribute="trailing" constant="35" id="m6t-pM-1Xk"/>
+                            <constraint firstItem="GH9-GF-9C6" firstAttribute="leading" secondItem="gr1-iy-TkN" secondAttribute="trailing" constant="20" id="noQ-PG-TKl"/>
+                            <constraint firstItem="xFg-QW-5Re" firstAttribute="top" secondItem="ERZ-WG-N1v" secondAttribute="bottom" constant="35" id="qUb-md-yq3"/>
+                            <constraint firstItem="dl8-PM-Uf6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tx0-rV-1Wa"/>
+                            <constraint firstItem="on1-qP-YSD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="uRj-b1-GMb"/>
+                            <constraint firstItem="wQi-sx-ZGM" firstAttribute="top" secondItem="zVy-Cb-kab" secondAttribute="bottom" constant="25" id="zB4-kJ-oNc"/>
+                            <constraint firstItem="vqV-2W-v5h" firstAttribute="leading" secondItem="ERZ-WG-N1v" secondAttribute="trailing" constant="35" id="zHt-PY-hAt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="faceOnePicture" destination="gr1-iy-TkN" id="ekj-HN-7t1"/>
+                        <outlet property="faceTwoPicture" destination="xFg-QW-5Re" id="H9k-pN-ArS"/>
+                        <outlet property="profilPicture" destination="GFC-hQ-b0h" id="QV0-vH-Fcd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="59.598214285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bookmark" catalog="system" width="112" height="128"/>
+        <image name="bubble.left" catalog="system" width="128" height="110"/>
+        <image name="ellipsis" catalog="system" width="128" height="37"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="paperplane" catalog="system" width="128" height="118"/>
+        <image name="picturePorquerolles" width="666.66668701171875" height="493"/>
+        <image name="profil" width="640" height="426"/>
+        <image name="visage1" width="640" height="426"/>
+        <image name="visage2" width="640" height="426"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
